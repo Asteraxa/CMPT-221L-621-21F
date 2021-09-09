@@ -4,43 +4,47 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
 
 /* Give the <body> element a background of #bdc3c7*/
 body {
-  background-color: #bdc3c7
+  background-color: #bdc3c7;
 }
 
 /* Make the <h1> element #9b59b6*/
 h1 {
-  color: 9b59b6
+  color: #9b59b6;
+  text-transform: uppercase;
 }
 
 /* Make all <h2> elements orange */
 h2 {
-  color: #ffcc00
+  color: #ff7b00;
+  text-transform: uppercase;
 }
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 li {
-  color: #3333cc
+  color: #000cb1;
 }
 
 /*Change the background on every paragraph to be purple*/
 p {
-  background-color: #842593
+  background-color: #e435ff;
 }
 
 /* Give everything with the class 'hello' a white background*/
 .hello {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special {
-   
+   border-style: solid;
+   border-width: 2px;
+   border-color: rgb(0, 190, 255);
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-
+ p.div{
+   font-size: 25px;  
+ }
 
 /*BONUS CHALLENGES*/
 /* Make the <h*> elements all UPPERCASE without changing the HTML(definitely look this one up)*/
-
-
