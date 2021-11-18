@@ -4,3 +4,4 @@ We talked about the steps that we could possibly take to deploy a website. I wan
 
 <!-- Answer Down Here -->
 
+When it comes to deploying my group's website, I would likely use a combination of AWS for hosting our server, due to its balance between cost and functionality, and Apache for communicating between the client and server, due to its flexibility and ability to handle dynamic content compared to NGINX. Additionally, as a more advanced form of Docker, we would make use of Kubernetes' containerization and load balance services in order to help manage the site's workload and prevent excessive monetary costs on our end. Finally, we will definitely take the time to acquire a web certificate, in order to guarentee people's trust in our service. 
